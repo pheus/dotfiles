@@ -1,0 +1,113 @@
+{
+    "editor.bracketPairColorization.enabled": true,
+    "editor.cursorBlinking": "solid",
+    "editor.cursorWidth": 4,
+    "editor.fontFamily": "'JetBrainsMono NF', 'FiraCode-Retina', 'Fira Code', 'IntelOne Mono', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
+    "editor.fontWeight": "400",
+    "editor.guides.bracketPairs": true,
+    "editor.lineHeight": 1.3,
+    "editor.rulers": [
+        72,
+        80
+    ],
+    "editor.suggest.preview": true,
+    "editor.suggestSelection": "first",
+    "files.associations": {
+        ".ansible-lint": "yaml",
+        ".yamllint": "yaml"
+    },
+    "files.eol": "\n",
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/.hg/store/**": true,
+        "**/node_modules/**": true,
+        "**/.venv/**": true
+    },
+    "git.untrackedChanges": "separate",
+    "npm.fetchOnlinePackageInfo": false,
+    "search.useGlobalIgnoreFiles": true,
+    "telemetry.telemetryLevel": "off",
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.fontWeight": "400",
+    "terminal.integrated.fontWeightBold": "700",
+    "terminal.integrated.lineHeight": 1.0,
+    "update.showReleaseNotes": false,
+    "window.commandCenter": true,
+    "window.zoomLevel": -0.5,
+    "workbench.cloudChanges.autoResume": "off",
+    "workbench.cloudChanges.continueOn": "off",
+    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.enableExperiments": false,
+    "workbench.fontAliasing": "default",
+    "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
+    "workbench.layoutControl.enabled": false,
+    "workbench.settings.enableNaturalLanguageSearch": false,
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "newUntitledFile",
+    "[json]": {
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace",
+        "editor.tabSize": 2
+    },
+    "[markdown]": {
+        "editor.insertSpaces": false,
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+        },
+        "editor.tabSize": 2,
+        "editor.wordWrap": "wordWrapColumn"
+    },
+    "[terraform]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.tabSize": 2
+    },
+    "[terraform-vars]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.tabSize": 2
+    },
+    "[yaml]": {
+        "editor.autoIndent": "advanced",
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    },
+    "ansible.python.activationScript": "${HOME}/.venv/ansible/bin/activate",
+    "ansible.python.interpreterPath": "${env:HOME}/.venv/ansible/bin/python3",
+    "cSpell.enableFiletypes": [
+        "ansible",
+        "terraform",
+        "terraform-vars"
+    ],
+    "gitlens.defaultTimeFormat": "HH:mm",
+    "gitlens.defaultDateFormat": "DD. MMMM YYYY, HH:mm",
+    "gitlens.defaultDateShortFormat": "DD.MM.YYYY",
+    "python.analysis.inlayHints.callArgumentNames": "all",
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.pytestParameters": true,
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "redhat.telemetry.enabled": false,
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "yaml.customTags": [
+        "!ENV scalar",
+        "!ENV sequence",
+        "tag:yaml.org,2002:python/name:materialx.emoji.to_svg",
+        "tag:yaml.org,2002:python/name:materialx.emoji.twemoji",
+        "tag:yaml.org,2002:python/name:pymdownx.superfences.fence_code_format"
+    ],
+    "yaml.schemas": {
+        "https://squidfunk.github.io/mkdocs-material/schema.json": "mkdocs.yml"
+    }
+}
