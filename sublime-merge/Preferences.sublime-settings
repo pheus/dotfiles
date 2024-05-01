@@ -1,0 +1,8 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+{
+	"font_face": "JetBrains Mono",
+	"side_bar_layout": "commit_graph_as_column",
+	"theme": "Merge Dark.sublime-theme",
+	"time_format": "24h",
+}
