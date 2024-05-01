@@ -1,0 +1,40 @@
+{
+    "bootstrapped": true,
+    "installed_packages":
+    [
+        "A File Icon",
+        "All Autocomplete",
+        "Anaconda",
+        "AutoFileName",
+        "ayu",
+        "CSS3",
+        "Djaneiro",
+        "DocBlockr",
+        "Dockerfile Syntax Highlighting",
+        "Dotfiles Syntax Highlighting",
+        "Emmet",
+        "GitGutter",
+        "Jinja2",
+        "Network Tech",
+        "Package Control",
+        "PlainTasks",
+        "Pretty JSON",
+        "SideBarEnhancements",
+        "SublimeLinter",
+        "SublimeLinter-bandit",
+        "SublimeLinter-csslint",
+        "SublimeLinter-flake8",
+        "SublimeLinter-html-tidy",
+        "SublimeLinter-jshint",
+        "SublimeLinter-json",
+        "SublimeLinter-pydocstyle",
+        "SublimeLinter-pylint",
+        "TabsExtra",
+        "Terminus",
+        "Theme - Monokai Pro",
+        "TrailingSpaces"
+    ],
+    "in_process_packages":
+    [
+    ],
+}
