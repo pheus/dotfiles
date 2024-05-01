@@ -50,6 +50,17 @@
     "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
     "workbench.layoutControl.enabled": false,
     "workbench.list.smoothScrolling": true,
+    "workbench.settings.applyToAllProfiles": [
+        "editor.fontFamily",
+        "editor.fontSize",
+        "editor.smoothScrolling",
+        "files.eol",
+        "workbench.colorTheme",
+        "workbench.iconTheme",
+        "workbench.list.smoothScrolling",
+        "workbench.sideBar.location",
+        "windows.zoomLevel"
+    ],
     "workbench.settings.enableNaturalLanguageSearch": false,
     "workbench.sideBar.location": "right",
     "workbench.startupEditor": "newUntitledFile",
