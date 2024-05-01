@@ -12,6 +12,7 @@
         72,
         80
     ],
+    "editor.smoothScrolling": true,
     "editor.suggest.preview": true,
     "editor.suggestSelection": "first",
     "files.associations": {
@@ -48,6 +49,7 @@
     "workbench.fontAliasing": "default",
     "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
     "workbench.layoutControl.enabled": false,
+    "workbench.list.smoothScrolling": true,
     "workbench.settings.enableNaturalLanguageSearch": false,
     "workbench.sideBar.location": "right",
     "workbench.startupEditor": "newUntitledFile",
