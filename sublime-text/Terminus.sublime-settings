@@ -1,0 +1,10 @@
+{
+    "256color": true,
+    "theme": "monokai-pro",
+    "unix_term": "xterm-256color",
+    "view_settings":
+    {
+        "font_size": 13.0,
+        "line_padding_top": 0
+    }
+}
