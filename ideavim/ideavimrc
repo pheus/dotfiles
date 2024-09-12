@@ -1,0 +1,73 @@
+" .ideavimrc is a configuration file for IdeaVim plugin. It uses
+"   the same commands as the original .vimrc configuration.
+" You can find a list of commands here: https://jb.gg/h38q75
+
+""" Map leader to space -------------------------------------------------------
+let mapleader=" "
+
+""" Plugins  ------------------------------------------------------------------
+set surround                      " Surroundings plugin (ys, cs, ds, S)
+set multiple-cursors              " Multiple cursors plugin
+set commentary                    " Commentary plugin
+set argtextobj                    " Text objects for function arguments plugin
+
+""" Plugin settings -----------------------------------------------------------
+let g:argtextobj_pairs="[:],(:),<:>"
+
+""" Common settings -----------------------------------------------------------
+set showmode                    " Always show what mode is currently active
+set scrolloff=5                 " Show a few lines of context around the
+                                "   cursor. Note that this makes the text
+                                "   scroll if you mouse-click near the start or
+                                "   end of the window.
+set incsearch                   " Do incremental searching.
+set number                      " Enable line numbering
+set relativenumber              " Enable relative line numbering
+set clipboard+=unnamed          " Use and access the system clipboard
+set hlsearch                    " Highlight search
+
+""" Idea specific settings ----------------------------------------------------
+set ideajoin                    " Custom IdeaVim behavior for joining lines
+set ideastatusicon=gray         " Set IdeaVim status icon color to 'gray'
+set idearefactormode=keep       " Keep existing code structure during
+                                "   refactoring operations
+
+""" Handler -------------------------------------------------------------------
+sethandler n:vim i:ide          " Set VIM handler for 'normal mode' and
+                                "   IDE handler for 'insert mode'
+sethandler <C-c> a:ide          " Set IDE handler for Cmd/Ctrl-c (copy)
+sethandler <C-e> a:ide          " Set IDE handler for Cmd/Ctrl-e (recent files)
+sethandler <C-f> a:ide          " Set IDE handler for Cmd/Ctrl-f (find)
+sethandler <C-r> a:ide          " Set IDE handler for Cmd/Ctrl-r (replace)
+sethandler <C-v> a:ide          " Set IDE handler for Cmd/Ctrl-v (paste)
+sethandler <C-w> a:ide          " Set IDE handler for Cmd/Ctrl-w (select block)
+
+""" Mappings ------------------------------------------------------------------
+
+"" Don't use Ex mode, use Q for formatting.
+map Q gq
+
+"" Map Ctrl-d to highlight and select next whole occurrence (normal + visual)
+nmap <C-d> <Plug>NextWholeOccurrence
+xmap <C-d> <Plug>NextWholeOccurrence
+
+"" Map Ctrl-x to skip next occurrence from selection (visual)
+xmap <C-x> <Plug>SkipOccurrence
+
+"" Map \r to the Reformat Code action
+"map \r <Action>(ReformatCode)
+
+"" Map <leader>d to start debug
+"map <leader>d <Action>(Debug)
+
+"" Map \b to toggle the breakpoint on the current line
+"map \b <Action>(ToggleLineBreakpoint)
+
+""" Links ---------------------------------------------------------------------
+
+" IdeaVim plugins
+"   https://jb.gg/ideavim-plugins
+" Map IDE actions to IdeaVim
+"   https://jb.gg/abva4t
+" Set handler for IDE or VIM mode
+"   https://github.com/JetBrains/ideavim/blob/master/doc/sethandler.md
